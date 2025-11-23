@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GBSS Mayur Vihar Phase-3</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f7fa;
+            color: #0d1b2a;
+        }
+
+        header {
+            background: #0d1b2a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            opacity: 0;
+            animation: fadeIn 1s ease forwards;
+        }
+
+        nav {
+            background: #1b263b;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            opacity: 0;
+            animation: fadeIn 1.2s ease forwards;
+        }
+
+        nav a {
+            color: #e0e1dd;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffffff;
+            transform: translateY(-2px);
+        }
+
+        .section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+            opacity: 0;
+            animation: fadeIn 1.4s ease forwards;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            margin-bottom: 20px;
+            transition: 0.3s ease;
+            opacity: 0;
+            animation: fadeIn 1.6s ease forwards;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+        }
+
+        h2 {
+            color: #0d1b2a;
+        }
+
+        footer {
+            background: #0d1b2a;
+            color: #e0e1dd;
+            padding: 10px;
+            text-align: center;
+            margin-top: 40px;
+            opacity: 0;
+            animation: fadeIn 2s ease forwards;
+        }
+
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Fade-in keyframes */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>GBSS Mayur Vihar Phase - 3</h1>
+        <p><em>"Education ignites transformation; teachers shape the flame."</em></p>
+        
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#staff">Staff</a>
+        <a href="#achievements">Achievements</a>
+    </nav>
+
+    <div id="home" class="section">
+        <div class="card">
+            <h2>Welcome to GBSS Mayur Vihar Phase - 3</h2>
+            <p>Our school is dedicated to providing quality education and fostering an environment where students can grow academically as well as personally.</p>
+        </div>
+    </div>
+
+    <div id="about" class="section">
+        <div class="card">
+            <h2>About Our School</h2>
+            <p>Government Boys Senior Secondary School, Mayur Vihar Phase-3, focuses on discipline, excellence, and holistic development of students. Our institution takes pride in shaping future leaders through quality learning.</p>
+        </div>
+    </div>
+
+    <div id="staff" class="section">
+        <div class="card">
+            <h2>Our Staff</h2>
+            <ul>
+                <li><strong>Principal</strong> – Dr. Naveen Kr Gupta</li>
+                <li><strong>Mathematics Department</strong> – Mr. Prem Singh, Preeti Dedha Ma'am, Mr. Shubham</li>
+                <li><strong>Science Department</strong> – Mr. Pawan Sharma, Mr. Jitendra</li>
+                <li><strong>Computer/IT Department</strong> – Mr. Manish</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="achievements" class="section">
+        <div class="card">
+            <h2>Achievements</h2>
+            <p>✔️ 100% Board Exam Pass Rate (Year Example)<br />
+               ✔️ Winners of Zonal Sports Competition<br />
+               ✔️ Top performance in Cultural & Science Events</p>
+        </div>
+    </div>
+
+    <div id="contact" class="section">
+        <div class="card">
+            <h2>Contact Us</h2>
+            <p>GBSS Mayur Vihar Phase-3<br>
+            Delhi - 110096<br>
+            Phone: (School Phone)<br>
+            Email: (School Email)</p>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 GBSS Mayur Vihar Phase - 3 | Designed by Anurag
+    </footer>
+
+
+</body>
+</html>
